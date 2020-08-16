@@ -7,6 +7,7 @@
   "scripts": {
     "build": "webpack",
     "start": "DEV=true webpack",
+    "watch": "webpack --watch",
     "test": "",
     "publish": ""
   },

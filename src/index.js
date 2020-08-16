@@ -13,5 +13,6 @@ if (window) {
     photoContainer.src = NicksPhoto;
     child.appendChild(photoContainer);
     wrapper.appendChild(child);
+    console.log('hello world');
   });
 }
