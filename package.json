@@ -6,7 +6,7 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "start": "DEV=true webpack",
+    "start": "DEV=true webpack-dev-server --open",
     "watch": "webpack --watch",
     "test": "",
     "publish": ""
@@ -31,7 +31,8 @@
     "prettier": "^2.0.5",
     "style-loader": "^1.2.1",
     "webpack": "4.44.1",
-    "webpack-cli": "3.3.12"
+    "webpack-cli": "3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "lodash": "4.17.20",
