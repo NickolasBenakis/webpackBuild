@@ -3,7 +3,9 @@ import './style.css';
 import { truncateName } from './util';
 
 const NicksPhoto = React.lazy(() =>
-  import(/* webpackPreload: true, webpackChunkName: 'nicksPhoto' */ './photo')
+  import(
+    /* webpackPreload: true, webpackChunkName: 'nicksPhoto' */ './components/photo'
+  )
 );
 
 const App = () => (
